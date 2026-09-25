@@ -24,7 +24,6 @@ const DETECTION_CLASSES: { label: DetectionClass; weight: number; threat: Threat
   { label: 'vehicle', weight: 22, threat: 'medium' },
   { label: 'structure', weight: 14, threat: 'low' },
   { label: 'weapon', weight: 8, threat: 'critical' },
-  { label: 'animal', weight: 18, threat: 'low' },
   { label: 'unknown', weight: 8, threat: 'high' },
 ];
 
