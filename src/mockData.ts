@@ -23,7 +23,7 @@ const DETECTION_CLASSES: { label: DetectionClass; weight: number; threat: Threat
   { label: 'person', weight: 30, threat: 'medium' },
   { label: 'vehicle', weight: 22, threat: 'medium' },
   { label: 'structure', weight: 14, threat: 'low' },
-  { label: 'weapon', weight: 8, threat: 'critical' },
+ // Weapon detection will be enabled after a trained weapon model is connected.
   { label: 'unknown', weight: 8, threat: 'high' },
 ];
 
